@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Halaman-1" id="2s_EBAtfQh_K51JSXyZg">
+    <mxGraphModel dx="1290" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-1" value="employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="50" width="216" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-2" value="+ name: String&lt;div&gt;+ position: String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ age: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-1">
+          <mxGeometry y="26" width="216" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-1">
+          <mxGeometry y="90" width="216" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-4" value="&lt;div&gt;+ getName(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setName(String name): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getPosition(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setPosition(String position): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getAge(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setAge(String age): void&lt;br&gt;&lt;/div&gt;+ displayInfo(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-1">
+          <mxGeometry y="98" width="216" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.248;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fBsm1kwhol2y5aE75Sfc-5" target="fBsm1kwhol2y5aE75Sfc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="181" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="181" y="310" />
+              <mxPoint x="365" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-5" value="lecturer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="51" y="400" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-6" value="+ NIP: String&lt;div&gt;+ subject: String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-5">
+          <mxGeometry y="26" width="260" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-5">
+          <mxGeometry y="70" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-8" value="&lt;div&gt;+ getNIP(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setNIP(String NIP): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ getSubject(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setSubject(String subject): void&lt;/div&gt;&lt;/div&gt;+ displayInfo(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-5">
+          <mxGeometry y="78" width="260" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-9" value="teaching_staff" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="527" y="400" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-10" value="+ NIP: String&lt;div&gt;+ part: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-9">
+          <mxGeometry y="26" width="250" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-9">
+          <mxGeometry y="70" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-12" value="&lt;div&gt;+ getNIP(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setNIP(String NIP): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ getPart(): String&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setPart(String part): void&lt;/div&gt;&lt;/div&gt;+ displayInfo(): void&lt;div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fBsm1kwhol2y5aE75Sfc-9">
+          <mxGeometry y="78" width="250" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="fBsm1kwhol2y5aE75Sfc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.744;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fBsm1kwhol2y5aE75Sfc-9" target="fBsm1kwhol2y5aE75Sfc-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="652" y="320" />
+              <mxPoint x="472" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
