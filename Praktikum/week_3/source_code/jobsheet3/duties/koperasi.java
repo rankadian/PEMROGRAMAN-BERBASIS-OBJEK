@@ -1,7 +1,7 @@
 package jobsheet3.duties;
 
 public class koperasi {
-    private String idCardNumber;
+    // private String idCardNumber;
     private String name;
     private int borrowingLimit;
     private int loanAmount;
